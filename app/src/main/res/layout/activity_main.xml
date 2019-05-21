@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="Parabéns"
+            android:layout_width="match_parent"
+            android:layout_height="62dp" android:textSize="30sp"
+            android:fontFamily="monospace" android:textColor="#028678"
+            android:textAppearance="@style/Base.AlertDialog.AppCompat"
+            android:textAlignment="center"
+            android:freezesText="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="302dp"
+        android:layout_width="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:srcCompat="@drawable/alegria"
+            tools:visibility="visible" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:layout_weight="1">
+        <Button
+
+            android:text="! Surpresa !"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/button" android:textColor="#028678"
+            android:textColorHint="#028678"
+            android:onClick="touch"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
